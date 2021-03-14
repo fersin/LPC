@@ -1,0 +1,25 @@
+function ap {
+while ($true){
+$a= read-host "
+-opcion 1 
+
+-opcion 2
+
+-opcion 3
+ 
+escoja la opcion que desea o ingrese 4 para salir "
+
+switch($a){
+1 {"
+opcion 1 :D"}
+2 {"
+opcion 2 D:"}
+3 {"
+opcion 3 >:("}
+4{
+exit
+}
+default{"la opcion que escogio no se encuentra :( "}
+}
+}
+}
