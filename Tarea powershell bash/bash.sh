@@ -1,6 +1,8 @@
-#!/bin/bash                                                                                                                                                             myf () {
+#!/bin/bash
+myf () {
         while :
         do
+                echo "hola $1"
                 echo "ingrese su edad "
                 read v
                 echo "hola su edad es $v"
@@ -18,4 +20,4 @@
                 fi
         done
 }
-myf $v
+myf $1
