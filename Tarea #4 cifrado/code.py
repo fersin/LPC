@@ -88,3 +88,4 @@ if __name__ == '__main__':
       print(readable_hash)
       if readable_hash==msg:
         print("todo bien carnal :)")
+        
