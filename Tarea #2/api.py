@@ -1,6 +1,6 @@
 import requests
 
-#api #3
+#api #1
 ip=input("ingrese la ip que desea en formato ipv4")
 r=requests.get('http://api.ipapi.com/api/'+ip+'?access_key=b7b979141c657937ac4b05df225c0ca9')
 
